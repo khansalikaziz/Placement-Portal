@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "263278503451",
+    "firebase_url": "https://placementportal-4b604-default-rtdb.firebaseio.com",
+    "project_id": "placementportal-4b604",
+    "storage_bucket": "placementportal-4b604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263278503451:android:b521b31253e73c867bfabe",
+        "android_client_info": {
+          "package_name": "com.example.visionmilecreation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263278503451-mgrc828e4re5bt5c4il5sg74q8ufctbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgs8tzxJBbmeoiLWDjuUmG1iiixp_9WDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263278503451-mgrc828e4re5bt5c4il5sg74q8ufctbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

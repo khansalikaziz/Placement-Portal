@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoticeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Announcements"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="SUMMER TRAINING: INFORMATION REGARDING NITI AAYOG INTERNSHIP SCHEME   (4/6/2023 2:20:12 PM)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Dear Student,
+
+    This is to acquaint you with the information that NITI AAYOG offers an internship for Undergraduate / Postgraduate students under NITI Aayog Internship Scheme.
+
+    There are multiple internship opportunities being offered, which you can opt for the internships provided under this scheme.
+
+    Online application link is open from 1-10 of every month.
+
+    For detailed information regarding this scheme, you may visit: https://www.niti.gov.in/internship
+
+    For the information regarding the courses, you may visit: https://workforindia.niti.gov.in/intern/PDF/NITI_Internship_Guidelines.pdf
+
+    For the information regarding the guidelines, you may visit: https://workforindia.niti.gov.in/intern/PDF/GENERAL%20INFORMATION_INTERNSHIP%20NITI%20SCHEME.pdf
+
+    To apply for the same, you may visit: https://workforindia.niti.gov.in/intern/InternshipEntry/PCInternshipEntry.aspx
+
+    Please make sure that in order to avail any internship, keep yourself updated with guidelines and deadlines prescribed by the NITI Aayog.
+
+    NOTE: This training shall also be considered as Mandatory 4 - 6 weeks summer internship for  students of B.Tech (CSE/IT).
+    \n\nUploaded By:
+    Dr. Rajeev Sobti
+    School of Computer Science and Engineering" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Reporting Schedule for the selection process of ON CAMPUS Drive by SANDHAR TECHNOLOGIES LIMITED (OC.9910.2023.36443).   (4/6/2023 9:53:08 AM)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="This is for the information to all concerned about the reporting schedule for the selection process of ON CAMPUS Drive by  SANDHAR TECHNOLOGIES LIMITED (OC.9910.2023.36443) is scheduled as follows:
+
+
+\n
+Reporting Date: 7 April 2023
+\n
+Reporting Time: 9:00 AM
+\n
+Reporting Venue : BLOCK 32-213
+\n
+Process - PPT, Group Discussion Round and Interview
+\n
+NOTE:
+\n1. Students should be in proper placement uniform (With LPU Logo on Blazer) in order to appear for the placement process.
+\n
+2. It is Mandatory to report at the campus to appear for the selection process.
+\n
+3. Students should update their LPU Touch App, so that they can scan the barcode to mark their attendance.
+\n
+4. All the candidates must carry copies of CV's for the interviews.
+\n
+5. Students must carry academic transcripts and government id both original and photocopy.
+\n
+Attachment:\n
+1-:SANDHAR TECHNOLOGIES LIMITED.xls
+\n
+Uploaded By:\n
+Dr.H Pal Thethi\n
+Division of Career Services" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Registrations for Community Lead 2023 are open   (4/4/2023 1:12:04 PM)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Dear Vertos,
+
+Greetings of the day from Google Developer Student Clubs - LPU!
+
+Applications for the role of Google Developer Student Clubs (GDSC) Community Lead are closing on 09th April! So, hurry up and register to  have the opportunity to lead a community of tech-minded individuals and help them learn and grow in the field of technology.
+
+As a GDSC Lead, you will receive training and support from Google to help you develop your leadership skills and grow your community. You will also have access to a network of other GDSC leaders from around the world, giving you the opportunity to collaborate and learn from others.
+
+If you have a passion for technology and a desire to make a difference in your community, hop on this golden opportunity.
+
+To apply and know more, navigate to the given link before 09th April - https://s.gdsclpu.live/lead23
+
+If you have any queries or need some clarification regarding the Event, connect with us on Discord to discuss - https://s.gdsclpu.live/discord
+
+Please, do not hesitate to contact us for clarification or additional information.
+
+Also, For any specific queries, Feel free to reach out to us at: gdsc@lpu.co.in
+
+Follow us: https://linktr.ee/gdsclpu
+
+Stay Connected with us for upcoming events!
+\n
+Attachment:\n
+1	GDSC LPU Community Lead.png\n
+Uploaded By:\n
+Dr. Rajeev Sobti\n
+School of Computer Science and Engineering" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Response to the call for Enrollment into Career Services - 2025 graduating batch students (01-Apr-2023)   (4/1/2023 5:44:51 PM)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Kind attention: Students expected to graduate in 2025.\n
+
+Upon students' requests, as a special gesture, the UMS has been unblocked for the students who have not responded to the career service registration call.
+
+Further to earlier UMS announcements regarding Enrollment into Career Services - 2025 graduating batch, all concerned students are hereby informed to positively complete their registration (with applicable PEP fee payment) or deny to opt for Enrollment into Career Services - 2025 graduating batch, latest by 14-Apr-2023.
+
+Kindly note that the access to UMS will be blocked w.e.f. 15-Apr-2023 for the 2025 graduating batch students who will neither complete Career Services Registration process nor deny (reject) to opt for Career Services support from the University, latest by 14-Apr-2023.
+
+In case of any queries or for more details, the students may,\n
+
+*** Contact their respective School Career Guidance Cell - Training and Placement Coordinators (TPCs) or\n
+
+*** Log an RMS query in category: Division of Career Services --- Placement --- Career Services Policy Registration\n
+
+Uploaded By:\n
+Dr.H Pal Thethi\n
+Division of Career Services" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#DCDCDC"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Final Result of Training Cum Drive by Lovely Professional University TC.1814.2023.36647   (3/29/2023 4:04:19 PM)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Heartiest Congratulations from Lovely Professional University to the following students selected through Training Cum Drive by Lovely Professional University TC.1814.2023.36647
+
+ \n
+
+** 12113997    Shashi Kumar
+
+
+\n
+** 12111473    MD Nafees Raza
+
+
+\n
+** 12102696    Meenatchi S
+
+
+\n
+** 12107241    Subhash Chandra
+
+
+\n
+** 12103632    Aswathy Binu
+
+
+\n
+** 12103835    Tanzeela Farooq
+
+
+\n
+** 12115515    Arisha Ashraf
+\n
+Uploaded By:\n
+Dr.H Pal Thethi\n
+Division of Career Services" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

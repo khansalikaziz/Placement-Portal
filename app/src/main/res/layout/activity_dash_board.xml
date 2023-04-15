@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    android:layout_height="match_parent"
+    tools:context=".DashBoard">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="@color/white"
+
+        tools:ignore="MissingConstraints" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hel"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:text="Hello"
+        style="@style/viewParent.headerText" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginBottom="20dp"
+            android:minHeight="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardBackgroundColor="#FF03DAC5"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your  \nPlacement Rank"
+                    android:textColor="@color/whiteBodyColor"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+                <ProgressBar
+                    android:id="@+id/pg"
+                    style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="150dp"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="15dp"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/progress_drawable" />
+
+
+
+
+                <TextView
+                    android:id="@+id/rep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="View Rank"
+                    android:textColor="@color/whiteBodyColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:elevation="44dp"
+            android:src="@drawable/header_image" />
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/inc"
+                android:orientation="horizontal">
+                <include
+                    android:id="@+id/placement"
+                    layout="@layout/card_popular_courses" />
+
+                <include
+                    android:id="@+id/profile"
+                    layout="@layout/tofflecard"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/inc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <include
+                    android:id="@+id/notice"
+                    layout="@layout/announce_card"
+                    />
+                <include
+                    android:id="@+id/policy"
+                    layout="@layout/policy_card" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

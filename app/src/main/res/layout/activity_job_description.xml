@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobDescription">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Description" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="20dp"
+            android:minWidth="300dp"
+            android:minHeight="200dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="About Company"
+                android:textColor="#090808"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="325dp"
+
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+
+                android:background="#808080" />
+
+            <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:text="XCEL Solutions Corp is a Global IT Service Provider with a proven track record servicing fortune 500 and Inc 1000 and other companies worldwide. Global Operation Centers/Offices catering to clients worldwide - New Jersey,  Mexico, Philippines, India.. Over 15+ years of industry experience expanding to over 20 different industry segments One of the fastest growing companies in the USA (awarded 3 consecutive years). XCEL Corp, Technology Partner for IBM, Oracle, SAP Callidus, BizAgi,  Microsoft, Alfresco, etc.
+\n\n
+Our Services \n\n
+** Software Research and Development (SAMKU Software Research Lab)\n
+** Educational and University Research Activities / Training and Development\n
+** Professional / Business Consulting Services / Project Management\n
+** Remote Infrastructure / Application Support / Database Support\n
+** Application Performance Tuning / Infrastructure and Performance Analysis.\n
+** nShore Service (On, Off, Near, Best, Distributed Shore Model)\n\n
+Designation :\n
+** AI/ML/DL\n
+** ETL/DW\n
+** Mobile App Development\n
+** Blockchain\n
+** DevOps Engineer\n
+** Infrastructure Engineer\n
+** Data Engineer\n
+** Cloud Engineer\n
+** QA Engineer\n
+** ERP/CRM" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PolicyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Placement Policy"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility and Debarment for students graduating in 2024"
+                android:textColor="#050505"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1) Enrolment: All students (graduating in 2024) with minimum current CGPA of 5.5 (or
+equivalent, for batches admitted prior 2017) and minimum current CGPA of 5 (or equivalent, for
+admission batches 2017 onwards) are eligible to register for Career Services by paying applicable
+Preparatory Sessions Fee (PEP Fee) (Non-Refundable) as mentioned in Table T-1.
+Students having less than the minimum CGPA mentioned above will be blocked for registering
+from placements until they secure a minimum CGPA mentioned above. In this case, career services
+registration will be enabled immediately for these blocked students as and when their CGPA
+improves. Any delay in terms of opportunity start date shall be responsibility of the concerend
+student.\n\n
+2) Temporary Debarment: For students registered for career services and later having less
+than the minimum CGPA as mentioned above or more than 4 standing arrears, will be temporarily
+debarred from career services until they again secure above mentioned minimum CGPA.
+Temporary Debarment status will be updated generally at following instances: –
+i. During Mid-Term Exams.
+ii. After End-Term Exam Results
+iii. After Summer Term Results
+PEP Activities may not be scheduled for Temporary Debarred students.
+\n
+\n
+3)Permanent Debarment: Student may be permanently debarred from career services in light
+of certain decisions or disciplinary actions. A student once permanently debarred from placement
+services at any point of time cannot later become part of the placement process at any given stage
+and the PEP fee paid/due would be non-refundable/non-reversible/non-adjustable against any
+other fee head.
+\n\n
+4) Registration Process:
+Student may follow the following pathway for Career Services Registration:
+• UMS Navigation > Placement Services > Placement Policy Registration
+The registration process will take place in 2 steps:
+• Process Step–I: Initial Consent for enrolment into Career Services
+• Process Step-II: Profile Update and PEP Fee payment
+The registration is considered complete only after Process Step-II is successfully completed with
+PEP fee payment.
+\n
+\n
+5) Process Step-I Details:
+i. Select expected graduating year as 2024.
+ii. Select the option “YES” if student is interested to register for Career Services, else select
+“NO”. It is expected that the students opt to register for Career Services only after carefully
+reading this policy in full letter and spirit.
+iii. Upon selecting the option “YES”, student will have to further select Career Option of
+his/her interest to register:
+a. Register for Job Placements
+b. Register for Higher Studies Preparedness
+c. Register for Entrepreneurship Preparedness
+Choosing “Job Placements” will require student to select the appropriate
+program/discipline with which he/she is going to graduate in 2024. For
+categories/disciplines (e.g. M.Tech students) where the students get to choose between
+Companies option or Teaching option, the students opting for Companies will be eligible
+to participate in placement drives of both Companies profile as well as Teaching profile
+but the students opting for Teaching will not be eligible to participate only in Teaching
+profile recruitment drives and not in Companies profile recruitment drives.
+7
+Choosing “Higher Studies” will require to further select the options of exams like in India
+(GRE/GMAT/GATE etc.) or abroad (IELTS/TOEFL etc.) for which the students seek
+support in preparation for higher studies.
+Choosing “Entrepreneurship” may not be required to choose any specific sub options.
+iv. Upon selecting the option “NO”, student will have to further select 3 suitable reasons for
+not enrolling into career services.
+" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
