@@ -91,7 +91,25 @@
             </RelativeLayout>
 
 
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
             <View style="@style/proifleDetailsView" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:backgroundTint="#E8526D"
+                android:padding="15dp"
+                android:text="Update Your Resume"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -113,7 +114,13 @@ class PlacementActivity : AppCompatActivity() {
 
         }
 
+
+
         //onclicklisteners
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Are You Sure");
+        builder.setMessage("This may lead to your debarment from placement services")
+        builder.setIcon(R.drawable.announceimg)
         airbus.setOnClickListener {
             if (uuid != null) {
                 database.child("user").child(uuid).child("Drive").child("airbus").get().addOnSuccessListener {
@@ -124,10 +131,19 @@ class PlacementActivity : AppCompatActivity() {
                             airbus.setText("DEREGISTER")
                         }
                     }else{
-                        if (uuid != null) {
-                            database.child("user").child(uuid).child("Drive").child("airbus").setValue(0)
-                            airbus.setText("REGISTER")
+                        builder.setPositiveButton("Yes"){dialogInterface, which ->
+                            if (uuid != null) {
+                                database.child("user").child(uuid).child("Drive").child("airbus").setValue(0)
+                                airbus.setText("REGISTER")
+                            }
                         }
+                        builder.setNegativeButton("No"){dialogInterface, which ->
+                            Toast.makeText(applicationContext,"Deregister Cancelled",Toast.LENGTH_LONG).show()
+                        }
+                        val alertDialog: AlertDialog = builder.create()
+                        alertDialog.setCancelable(false)
+                        alertDialog.show()
+
                     }
                     Log.i("firebase", "Got value ${it.value}")
                 }.addOnFailureListener{
@@ -145,10 +161,19 @@ class PlacementActivity : AppCompatActivity() {
                             nyala.setText("DEREGISTER")
                         }
                     }else{
-                        if (uuid != null) {
-                            database.child("user").child(uuid).child("Drive").child("nyala").setValue(0)
-                            nyala.setText("REGISTER")
+
+                        builder.setPositiveButton("Yes"){dialogInterface, which ->
+                            if (uuid != null) {
+                                database.child("user").child(uuid).child("Drive").child("nyala").setValue(0)
+                                nyala.setText("REGISTER")
+                            }
                         }
+                        builder.setNegativeButton("No"){dialogInterface, which ->
+                            Toast.makeText(applicationContext,"Deregister Cancelled",Toast.LENGTH_LONG).show()
+                        }
+                        val alertDialog: AlertDialog = builder.create()
+                        alertDialog.setCancelable(false)
+                        alertDialog.show()
                     }
                     Log.i("firebase", "Got value ${it.value}")
                 }.addOnFailureListener{
@@ -167,10 +192,18 @@ class PlacementActivity : AppCompatActivity() {
                             altair.setText("DEREGISTER")
                         }
                     }else{
-                        if (uuid != null) {
-                            database.child("user").child(uuid).child("Drive").child("altair").setValue(0)
-                            altair.setText("REGISTER")
+                        builder.setPositiveButton("Yes"){dialogInterface, which ->
+                            if (uuid != null) {
+                                database.child("user").child(uuid).child("Drive").child("altair").setValue(0)
+                                altair.setText("REGISTER")
+                            }
                         }
+                        builder.setNegativeButton("No"){dialogInterface, which ->
+                            Toast.makeText(applicationContext,"Deregister Cancelled",Toast.LENGTH_LONG).show()
+                        }
+                        val alertDialog: AlertDialog = builder.create()
+                        alertDialog.setCancelable(false)
+                        alertDialog.show()
                     }
                     Log.i("firebase", "Got value ${it.value}")
                 }.addOnFailureListener{
@@ -188,10 +221,18 @@ class PlacementActivity : AppCompatActivity() {
                             opentext.setText("DEREGISTER")
                         }
                     }else{
-                        if (uuid != null) {
-                            database.child("user").child(uuid).child("Drive").child("opentext").setValue(0)
-                            opentext.setText("REGISTER")
+                        builder.setPositiveButton("Yes"){dialogInterface, which ->
+                            if (uuid != null) {
+                                database.child("user").child(uuid).child("Drive").child("opentext").setValue(0)
+                                opentext.setText("REGISTER")
+                            }
                         }
+                        builder.setNegativeButton("No"){dialogInterface, which ->
+                            Toast.makeText(applicationContext,"Deregister Cancelled",Toast.LENGTH_LONG).show()
+                        }
+                        val alertDialog: AlertDialog = builder.create()
+                        alertDialog.setCancelable(false)
+                        alertDialog.show()
                     }
                     Log.i("firebase", "Got value ${it.value}")
                 }.addOnFailureListener{
@@ -209,10 +250,18 @@ class PlacementActivity : AppCompatActivity() {
                             bajaj.setText("DEREGISTER")
                         }
                     }else{
-                        if (uuid != null) {
-                            database.child("user").child(uuid).child("Drive").child("bajaj").setValue(0)
-                            bajaj.setText("REGISTER")
+                        builder.setPositiveButton("Yes"){dialogInterface, which ->
+                            if (uuid != null) {
+                                database.child("user").child(uuid).child("Drive").child("bajaj").setValue(0)
+                                bajaj.setText("REGISTER")
+                            }
                         }
+                        builder.setNegativeButton("No"){dialogInterface, which ->
+                            Toast.makeText(applicationContext,"Deregister Cancelled",Toast.LENGTH_LONG).show()
+                        }
+                        val alertDialog: AlertDialog = builder.create()
+                        alertDialog.setCancelable(false)
+                        alertDialog.show()
                     }
                     Log.i("firebase", "Got value ${it.value}")
                 }.addOnFailureListener{

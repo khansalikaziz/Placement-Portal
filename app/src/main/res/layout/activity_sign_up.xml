@@ -203,6 +203,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="40dp"
                 android:onClick="sw"
+                android:visibility="gone"
                 android:src="@drawable/ic_google_plus"
                  />
         </LinearLayout>

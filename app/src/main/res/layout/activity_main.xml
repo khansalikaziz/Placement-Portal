@@ -46,7 +46,7 @@
                 <EditText
                     android:id="@+id/emailBox"
                     style="@style/modifiedEditText"
-                    android:backgroundTint="#FFFCFC"
+                    android:backgroundTint="#FBFAFA"
                     android:hint="@string/login_email_hint"
                     android:inputType="textEmailAddress"
                     android:maxLines="1" />
@@ -73,7 +73,8 @@
                 android:layout_marginTop="10dp"
                 android:text="Forgot Password?"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="@dimen/newsMoreTextSize" />
+                android:textSize="@dimen/newsMoreTextSize"
+                android:visibility="gone" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/text3"
@@ -146,7 +147,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:onClick="sw"
-                    android:src="@drawable/ic_google_plus" />
+                    android:src="@drawable/ic_google_plus"
+                    android:visibility="gone" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

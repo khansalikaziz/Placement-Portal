@@ -52,7 +52,7 @@ class SignUp : AppCompatActivity() {
             //Register
             auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
-                    if(!email.isEmpty() && !password.isEmpty() && !name.isEmpty() && !reg.isEmpty() && !course.isEmpty() ){
+                    if(!email.isEmpty() && !password.isEmpty() && !name.isEmpty() && !reg.isEmpty() && !course.isEmpty() && password.length>5){
                         if (task.isSuccessful) {
                             val user = auth.currentUser
                             var uuid= user?.uid
@@ -64,6 +64,8 @@ class SignUp : AppCompatActivity() {
                                 database.child("user").child(uuid).child("Name").setValue(name)
                                 database.child("user").child(uuid).child("Reg").setValue(reg)
                                 database.child("user").child(uuid).child("Course").setValue(course)
+
+                                database.child("user").child(uuid).child("resume").setValue("0")
 
                                 //Drive Data
                                 database.child("user").child(uuid).child("Drive").child("airbus").setValue("0")

@@ -55,11 +55,28 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,SignUp::class.java))
         }
     }
-    public override fun onStart() {
-        super.onStart()
-        val currentUser = auth.currentUser
-        if(currentUser != null){
-            startActivity(Intent(this,DashBoard::class.java))
-        }
-    }
+//    public override fun onStart() {
+//        super.onStart()
+//        val currentUser = auth.currentUser
+//        if(currentUser != null){
+//            startActivity(Intent(this,DashBoard::class.java))
+//        }
+//    }
 }
+
+/*
+We will be using
+-->Toolbar
+-->Listeners
+-->Progress Bar
+-->Intent
+-->Activity LifeCycle
+-->Handler
+-->View
+-->Option Menu
+-->Toast
+-->Custom layout design
+-->Alert Dialogue box
+-->File Manager
+-->Navigation Drawer
+ */

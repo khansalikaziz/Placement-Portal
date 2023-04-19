@@ -5,6 +5,9 @@
         android:id="@+id/vprofile"
         android:title="View Profile" />
     <item
+        android:id="@+id/resume"
+        android:title="View Resume" />
+    <item
         android:id="@+id/logout"
         android:title="Logout" />
 </menu>
