@@ -1,6 +1,6 @@
 # Placement-Portal
 
-Download Link -: https://drive.google.com/file/d/1TrjOVqbVDETGhMlOwXQjgd-Q1u8ln2yQ/view?usp=sharing
+Download Link -: https://drive.google.com/file/d/1cCdqsYlsN-FgNcE-yaye6U7LYF8WC0Ki/view
 
 # Screenshots
 
